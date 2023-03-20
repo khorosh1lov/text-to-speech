@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+	<style type="text/css">
+		html,body { height: 100%; }
+		header { background-color: #ffedd5; padding: 40px 0; }
+		.form-control:disabled { cursor: not-allowed; } .form-control:disabled a { pointer-events: none; }
+		.hero {text-align: center; }
+		.hero h1 {margin-top: 40px;}
+		.hero svg { max-width: 240px; height: auto; }
+	</style>
+
+    <title>Text to Speech</title>
+  </head>
+  <body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="hero col-10 mx-auto">
+					<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"
+					viewBox="0 0 512 512"><path fill="#272a33" d="M188.874
+					343.672a7.467 7.467 0 0 0-1.588-3.432l-40.98-88.569a7.5 7.5
+					0 0 0-13.613 0L91.714 340.24a7.467 7.467 0 0 0-1.588
+					3.432L74.914 376.55a7.5 7.5 0 0 0 13.613
+					6.299l14.036-30.337h73.873l14.037 30.337a7.5 7.5 0 0 0
+					13.613-6.299Zm-79.37-6.16 29.996-64.83 29.996 64.83ZM319.146
+					89.578h15.35a7.5 7.5 0 0 0 0-15h-45.697a7.5 7.5 0 0 0 0
+					15h15.347v33.813h-38.055a31.883 31.883 0 0
+					0-27.04-48.813h-32.299a7.5 7.5 0 0 0 0 15h32.299a16.906
+					16.906 0 0 1 0 33.813h-32.299a7.5 7.5 0 0 0 0
+					15h31.756c9.416 0 17.266 7.404 17.502 16.505a16.958 16.958 0
+					0 1-16.951 17.408q-.35 0-.7.033a54.99 54.99 0 0
+					1-44.7-16.556 7.5 7.5 0 1 0-10.789 10.42 69.951 69.951 0 0 0
+					50.43 21.37c2.045 0 4.089-.089 6.121-.269a31.956 31.956 0 0
+					0 31.583-32.794 31.145 31.145 0 0
+					0-5.007-16.117h38.15v41.312a7.5 7.5 0 0 0 15 0Zm83.304
+					169.05a109.307 109.307 0 0 0-61.2 18.681v-12.377a143.793
+					143.793 0 0 0
+					64.72-120.535c0-79.733-64.863-144.6-144.59-144.6s-144.59
+					64.867-144.59 144.6a143.965 143.965 0 0 0 7.239
+					45.294C54.363 197.413 0 256.637 0 328.328a138.74 138.74 0 0
+					0 62.316 116.21v59.474a7.5 7.5 0 0 0 11.34
+					6.443l71.728-42.752a139.526 139.526 0 0 0
+					130.996-166.31l28.475 16.967a109.574 109.574 0 0 0 92.543
+					159.262l55.082 32.837a7.5 7.5 0 0 0
+					11.34-6.442V458.94a109.56 109.56 0 0
+					0-61.37-200.313ZM228.675 415.206a123.796 123.796 0 0
+					1-85.682 37.57 7.502 7.502 0 0 0-3.634 1.055l-62.043
+					36.98v-50.366a7.498 7.498 0 0 0-3.535-6.366 124.508 124.508
+					0 1 1 154.894-18.873Zm41.859-134.76a139.74 139.74 0 0
+					0-130.92-91.617 128.875 128.875 0 0 1-7.824-44.433c0-71.462
+					58.134-129.6 129.59-129.6s129.59 58.138 129.59 129.6a128.938
+					128.938 0 0 1-61.185 110.074 7.5 7.5 0 0 0-3.535
+					6.366v52.81l-7.427-4.426-.014-.01-.018-.01ZM452.356
+					448.5a7.5 7.5 0 0 0-3.536 6.367v35.947l-45.39-27.059a7.501
+					7.501 0 0 0-3.634-1.055 94.568 94.568 0 0
+					1-82.015-136.638l12.13 7.228a7.5 7.5 0 0 0
+					11.339-6.443v-30.724A94.55 94.55 0 1 1 452.356
+					448.5Zm-3.522-121.304h-15.588a7.451 7.451 0 0 0-1.749
+					0h-21.55v-12.602a7.5 7.5 0 0 0-15 0v12.602h-33.9a7.5 7.5 0 0
+					0 0 15h59.863a115.97 115.97 0 0 1-26.057 34.76 92.968 92.968
+					0 0 1-12.947-16.66 7.5 7.5 0 0 0-12.814 7.797 108.019
+					108.019 0 0 0 13.928 18.223 113.671 113.671 0 0 1-22.337
+					11.86 7.5 7.5 0 1 0 5.525 13.945 128.385 128.385 0 0 0
+					28.144-15.463 107.51 107.51 0 0 0 37.51 19.174 7.5 7.5 0 0 0
+					4.102-14.428 92.647 92.647 0 0 1-29.715-14.528 132.241
+					132.241 0 0 0 31.174-44.68h11.411a7.5 7.5 0 0 0
+					0-15Z"/></svg>
+					<h1 class="mb-5">Text to Speech</h1>
+				</div>
+				
+			</div>
+		</div>
+	</header>
+    <div class="container h-100">
+        <div class="row h-100">
+			<div class="col-10 m-5 mx-auto">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div class="form-group">
+							<label for="lang">Language</label>
+							<select class="form-control" id="lang"></select>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="form-group">
+							<label for="voice">Voice</label>
+							<select class="form-control" id="voice"></select>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="form-group">
+							<label for="volume">Volume (<span class="volume-value">0.5</span>)</label>
+							<input type="range" class="form-control-range" id="volume" min="0" max="1" value="0.5" step="0.05">
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="form-group">
+							<label for="rate">Rate (<span class="rate-value">1</span>)</label>
+							<input type="range" class="form-control-range" id="rate" min="0.1" max="2" value="1" step="0.1">
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="form-group">
+							<label for="pitch">Pitch (<span class="pitch-value">1</span>)</label>
+							<input type="range" class="form-control-range" id="pitch" min="0" max="2" value="1" step="0.1">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="text">Text to read</label>
+					<textarea class="form-control" rows="6" id="text"></textarea>
+				</div>
+
+				<div id="status"></div>
+				
+				<div id="play-control" class="btn-group text-left"></div>
+				<div id="reading-control" class="btn-group btn-group-toggle float-right text-right"></div>
+			</div>
+        </div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
